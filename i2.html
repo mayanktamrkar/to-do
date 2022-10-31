@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet " type="text/css" />
+    <title>todo</title>
+    <style>
+        #tables {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        tr,
+        th {
+            border: 2px solid rgb(19, 18, 6);
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>To do list</h1>
+
+        </header>
+        <section>
+            <input type="text" class="input" id="inputv" />
+            <button class="add" onclick="addinputtext()">ADD</button>
+        </section>
+
+        <section>
+
+
+            <table id="tables">
+                <tr>
+                    <th>Todo list</th>
+
+                </tr>
+
+
+            </table>
+        </section>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

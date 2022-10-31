@@ -1,0 +1,13 @@
+#tables {border-collapse: collapse;width: 100%;}
+tr,th {box-shadow: 5px 5px 15px #c9c9c9;}
+.inputbox { height:80vh;width: 500px;margin: auto;border-radius: 10px;background-color: #f0ffff;box-shadow: 5px 5px 15px #c9c9c9;padding-bottom: 20px;}
+.input {margin: 50px 5px 50px 100px;height: 40px ;width: 250px;}
+button {background: #2dd337 ;padding: 5px 15px;margin: 0;border-radius: 10px;} 
+#inputdata {background: rgb(242, 247, 184);}
+.btn{margin-left: 10px;}
+.list{display: grid;grid-template-columns: 200px 100px;grid-template-rows: 25px;justify-content: space-evenly;}
+li{padding: 10px;}
+h1{text-align: center;font-size: 40px;}
+
+
+
