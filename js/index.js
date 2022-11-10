@@ -42,9 +42,9 @@ function addinputtext() {
                     
                     
                     document.getElementById("error").innerHTML=""
-                    let a=e.target.parentNode.firstChild
-                    a.setAttribute("disabled",true)
-                    a.setAttribute("class","input-box")
+                    let input_box=e.target.parentNode.firstChild
+                    input_box.setAttribute("disabled",true)
+                    input_box.setAttribute("class","input-box")
                     e.target.innerHTML="edit"
                     console.log("v",e.target.parentNode.firstChild.value)
 
@@ -59,9 +59,9 @@ function addinputtext() {
             }else if(e.target.innerHTML=="edit"){
                 
               
-                let a=e.target.parentNode.firstChild
-                a.removeAttribute("disabled")
-                a.removeAttribute("class")
+                let input_box=e.target.parentNode.firstChild
+                input_box.removeAttribute("disabled")
+                input_box.removeAttribute("class")
                 e.target.innerHTML="done"
              
                 
